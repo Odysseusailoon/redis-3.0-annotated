@@ -57,7 +57,7 @@ static int checkStringLength(redisClient *c, long long size) {
  *
  * setGenericCommand() 函数实现了 SET 、 SETEX 、 PSETEX 和 SETNX 命令。
  *
- * 'flags' changes the behavior of the command (NX or XX, see belove).
+ * 'flags' changes the behavior of the command (NX or XX, see below).
  *
  * flags 参数的值可以是 NX 或 XX ，它们的意义请见下文。
  *
